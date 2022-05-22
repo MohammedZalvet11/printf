@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
+ * init_params - clears struct fields and reset buf
  * @params: 
  * @ap: 
+ * Return: void
  */
 void init_params(params_t *params, va_list ap)
 {
