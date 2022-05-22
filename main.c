@@ -4,7 +4,8 @@
 
 /**
  * main function that call the protoypes of the print functions
- * Return 0
+ *
+ * Return: Always 0
  */
 int main(void)
 {
