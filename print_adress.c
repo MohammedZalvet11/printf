@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * @l: va_list arguments from _printf
- * @f: pointer to the struct
+ * @l: 
+ * @f:
  */
 int print_address(va_list l, flags_t *f)
 {

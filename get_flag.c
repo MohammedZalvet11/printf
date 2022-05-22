@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * @s: character that holds the flag specifier
- * @f: pointer to the struct flags in which we turn the flags on
+ * @s: 
+ * @f: 
  *
  */
 int get_flag(char s, flags_t *f)

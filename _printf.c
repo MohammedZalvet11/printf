@@ -2,7 +2,7 @@
 
 /**
  *
- * @format: format string containing the characters and the specifiers
+ * @format: 
  *
  */
 int _printf(const char *format, ...)

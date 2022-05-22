@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * @s: character that holds the conversion specifier
- * Return: a pointer to the matching printing function
+ * @s: 
+ * 
  */
 int (*get_print(char s))(va_list, flags_t *)
 {
