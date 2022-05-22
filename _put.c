@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
+ * _puts - prints a string with newline
  * @str: 
+ *
+ * Return: void
  */
 int _putstg(char *str)
 {
