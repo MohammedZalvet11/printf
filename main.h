@@ -116,4 +116,13 @@ char *get_precision(char *p, params_t *params, va_list ap);
 /* _prinf.c module */
 int _printf(const char *format, ...);
 
+/* get_flag */
+int get_flag(char s, flags_t *f);
+
+/* get_print */
+int (*get_print(char s))(va_list, flags_t *);
+
+/* print_address */
+int print_address(va_list l, flags_t *f);
+
 #endif
