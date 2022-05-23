@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
+ * get_specifier - finds the format func
  * @s: 
+ *
+ * Return: the number of bytes printed
  */
 int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
@@ -36,9 +39,12 @@ int (*get_specifier(char *s))(va_list ap, params_t *params)
 }
 
 /**
+ * get_print_func - finds the format func
  * @s: 
  * @ap: 
  * @params: 
+ *
+ * Return: the number of bytes printed
  */
 int get_print_func(char *s, va_list ap, params_t *params)
 {
@@ -50,8 +56,11 @@ int get_print_func(char *s, va_list ap, params_t *params)
 }
 
 /**
+ * get_flag - finds the flag func
  * @s: 
  * @params: 
+ *
+ * Return: if flag was valid
  */
 int get_flag(char *s, params_t *params)
 {
@@ -79,8 +88,11 @@ int get_flag(char *s, params_t *params)
 }
 
 /**
+ * get_modifier - finds the modifier func
  * @s: 
  * @params: 
+ *
+ * Return: if modifier was valid
  */
 int get_modifier(char *s, params_t *params)
 {
@@ -99,9 +111,12 @@ int get_modifier(char *s, params_t *params)
 }
 
 /**
+ * get_width - gets the width from the format string
  * @s: 
  * @params: 
  * @ap: 
+ *
+ * Return: new pointer
  */
 char *get_width(char *s, params_t *params, va_list ap)
 {
